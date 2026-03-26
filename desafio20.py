@@ -21,4 +21,6 @@ lista = [fruta1, fruta2, fruta3]
 
 random.shuffle(lista)
 print("A ordem de apresentação da fruta será")
-print(lista)
+print(lista)\
+    
+    
