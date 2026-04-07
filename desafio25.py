@@ -1,0 +1,2 @@
+nome=input("Qual o Seu nome completo? ").strip() #ignora os espaços em brancos do inicio ao fim
+print("Seu nome tem Rezende? {}" .format("Rezende" in nome.lower())) #verifica se a string "Rezende" está presente na variável nome (ignora maiúsculas e minúsculas) e imprime o resultado (True ou False) true se for igual e false se for diferente

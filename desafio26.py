@@ -1,0 +1,4 @@
+frase=input("Digite uma frase: ").strip() #strip() remove os espaços em branco no início e no final da string
+print("A letra E aparece {} vezes na frase".format(frase.upper().count("E"))) #converte a string para maiúsculas e conta quantas vezes a letra "E" aparece na string e imprime o resultado
+print("A letra E apareceu  na posição {}".format(frase.upper().find("E")+1)) #converte a string para maiúsculas, conta quantas vezes a letra "E" aparece na string e encontra a posição onde começa a primeira ocorrência da letra "E" na string e imprime o resultado
+print("A ultima letra E apareceu {} na posição".format(frase.upper().rfind("E")+1))#converte a string para maiúsculas e conta quantas vezes a letra "I" aparece na string e imprime o resultado\
